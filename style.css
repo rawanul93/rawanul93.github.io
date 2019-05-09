@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	background-color: rgb(40,35,35);
+}
+
+.main {
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;	
+}
+
+.main > .jumbotron {
+	background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/21/73/vxayzl.jpg);
+	background-size: cover;
+	/*text-align: center;*/
+}
+
+h1 {
+	font-family: Gugi;
+	font-size: 35px;
+	font-weight: bold;
+	background: rgba(237, 122, 56, 0.5);
+	padding: 15px 15px;
+	margin-bottom: 10px;
+	display:inline-block;
+	border-radius: 25px;
+	border:1px solid grey;
+
+
+	/*background-size: relative;*/
+}
+
+h1 + p {
+	font-size: 20px;
+	font
+}
+
+.navbar-brand {
+	font-weight: bold !important;
+}
+
+
+.btn-success {
+	font-family: Gugi;
+	border-radius: 100px;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.navbg {
+		background: linear-gradient(to left,rgb(255,35,35) 10%,rgb(237, 122, 56) 90%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
+    font-family: Gugi;
+    transition: 0.5s;
+    margin-left: 20PX;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(200,200,200,1);
+    transform: scale(1.1);
+    /*border-bottom: rgba(200,200,200,1) !important;*/
+}
+
+
+
+
+.navbar-toggler2 {
+  
+  	line-height: 1;
+ 	border: none;
+	background-image: url(https://cdn4.iconfinder.com/data/icons/soccer-american-football/100/f-01-512.png) !important;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-toggler-icon2 {
+	 display: inline-block;
+	 width: 1.5em;
+	 height: 1.5em;
+	 vertical-align: middle;
+	 content: "";
+	 background: no-repeat center center;
+	 background-size: 100% 100%;
+}
+
+.navbar-brand {
+	font-family: Gugi;
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 1000;	
+}
+
+.btn .btn-primary .btn-lg .btn-success {
+	padding: 100px;
+}
+
+
